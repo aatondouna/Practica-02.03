@@ -1,0 +1,5 @@
+objeto = input("nombre del producto\n")
+precio = input("indique el precio del producto en este formato X.XX:\n")
+lista_cadena = precio.split(".")
+print("precio del producto\n", lista_cadena[0])
+print("centimos del producto\n", lista_cadena[1])
